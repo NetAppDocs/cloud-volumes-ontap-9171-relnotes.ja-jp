@@ -18,6 +18,7 @@ Google Cloud では、複数の Cloud Volumes ONTAP 構成がサポートされ�
 
 
 
+[[supported-configurations-by-license]]
 == ライセンス別にサポートされる構成
 
 Cloud Volumes ONTAP は、Google Cloud では、単一ノード システムとして、またフォールト トレランスと無停止運用を実現する高可用性（HA）ノード ペアとして利用できます。
@@ -179,6 +180,7 @@ NOTE: _Flash Cache_、高書き込みモード、および8,896のMTUは機能�
 
 
 
+[[supported-disk-sizes]]
 == サポートされているディスクサイズ
 
 Google Cloudでは、アグリゲートにはタイプとサイズがすべて同じ最大6個のディスクを含めることができます。次のディスクサイズがサポートされています：
@@ -195,6 +197,7 @@ Google Cloudでは、アグリゲートにはタイプとサイズがすべて�
 
 
 
+[[supported-regions]]
 == サポートされているリージョン
 
 Google Cloud のリージョンサポートについては、 https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volumes のグローバルリージョン"^]を参照してください。

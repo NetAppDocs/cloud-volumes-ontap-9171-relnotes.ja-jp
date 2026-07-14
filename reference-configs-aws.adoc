@@ -18,6 +18,7 @@ AWS では、複数の Cloud Volumes ONTAP 構成がサポートされていま�
 
 
 
+[[supported-number-of-nodes]]
 == サポートされるノード数
 
 Cloud Volumes ONTAP は、AWS では単一ノード システムとして、また、フォールト トレランスと中断のない運用を実現する高可用性（HA）ノード ペアとして利用できます。
@@ -26,12 +27,14 @@ Cloud Volumes ONTAP は、AWS では単一ノード システムとして、ま�
 
 
 
+[[supported-storage]]
 == サポートされているストレージ
 
 Cloud Volumes ONTAP は、いくつかの種類の EBS ディスク、およびデータ階層化用の S3 オブジェクト ストレージをサポートします。最大ストレージ容量は、選択したライセンスによって決まります。
 
 
 
+[[storage-support-by-license]]
 === ライセンス別のストレージサポート
 
 各ライセンスは異なる最大システム容量をサポートします。最大システム容量には、ディスクベースのストレージと、データ階層化に使用されるオブジェクト ストレージが含まれます。NetApp この制限を超えることはサポートされていません。
@@ -112,6 +115,7 @@ Cloud Volumes ONTAP は、いくつかの種類の EBS ディスク、および�
 ====
 
 
+[[supported-disk-sizes]]
 === サポートされているディスクサイズ
 
 AWS では、アグリゲートには最大 6 個の同じサイズのディスクを含めることができます。ただし、Amazon EBS Elastic Volumes 機能をサポートする構成がある場合、アグリゲートには最大 8 個のディスクを含めることができます。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-aws-elastic-volumes.html["Elastic Volumes のサポートの詳細については、こちらをご覧ください"^]
@@ -154,13 +158,14 @@ AWS では、アグリゲートには最大 6 個の同じサイズのディス�
 |===
 
 
+[[supported-ec2-compute]]
 == サポートされている EC2 コンピューティング
 
 各 Cloud Volumes ONTAP ライセンスは、さまざまな EC2 インスタンス タイプをサポートします。便宜上、以下の表に、サポートされている各インスタンス タイプの vCPU、RAM、帯域幅を示します https://aws.amazon.com/ec2/instance-types/["EC2 インスタンスタイプに関する最新の完全な詳細については AWS を参照してください。"^]。
 
 Cloud Volumes ONTAP は、リザーブド EC2 インスタンスまたはオンデマンド EC2 インスタンスのいずれかで実行できます。他のインスタンスタイプを使用するソリューションはサポートされていません。
 
-以下の表に示す帯域幅は、各インスタンスタイプに記載されている AWS の制限と一致しています。これらの制限は、Cloud Volumes ONTAP が提供できるものと完全には一致しません。期待されるパフォーマンスについては、 https://www.netapp.com/pdf.html?item=/media/9088-tr4383pdf.pdf["NetApp テクニカルレポート4383：アプリケーションワークロードを使用したAmazon Web ServicesにおけるCloud Volumes ONTAPのパフォーマンス特性"^]を参照してください。
+以下の表に示す帯域幅は、各インスタンスタイプに記載されている AWS の制限と一致しています。これらの制限は、Cloud Volumes ONTAP が提供できるものと完全には一致しません。期待されるパフォーマンスについては、 https://www.netapp.com/pdf.html?item=/media/9088-tr4383.pdf["NetApp テクニカルレポート4383：アプリケーションワークロードを使用したAmazon Web ServicesにおけるCloud Volumes ONTAPのパフォーマンス特性"^]を参照してください。
 
 [cols="8*"]
 |===
@@ -257,6 +262,7 @@ AWS ローカルゾーンのこれらのインスタンスタイプでは、高�
 
 
 
+[[c4-m4-and-r4-instances-no-longer-supported]]
 === c4、m4、r4インスタンスはサポートされなくなりました
 
 Cloud Volumes ONTAP は AWS の c4、m4、r4 EC2 インスタンス タイプはサポートされなくなりました。システムが c4、m4、または r4 インスタンスで実行されている場合は、c5、m5、または r5 インスタンスに変更します。インスタンス タイプを変更するまで、このリリースにアップグレードすることはできません。
@@ -272,6 +278,7 @@ link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-change-ec2-in
 
 
 
+[[supported-regions]]
 == サポートされているリージョン
 
 AWSリージョンのサポートについては、 https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volumes のグローバルリージョン"^]を参照してください。
