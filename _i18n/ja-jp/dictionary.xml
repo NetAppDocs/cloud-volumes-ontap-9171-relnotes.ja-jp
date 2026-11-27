@@ -898,4 +898,13 @@
   <block id="b55ddbbed17e1b675f73274aaa6f0d6a" category="paragraph">Cloud Volumes ONTAP 9.17.1 P7 パッチが AWS、Azure、Google Cloud でアップグレードできるようになりました。コンソールに、既存のシステムをこのパッチリリースにアップグレードするよう促すメッセージが表示されます。</block>
   <block id="7fa6a95154192207488dcc8bf13f9366" category="inline-link-macro">P7パッチで修正されたバグのリストを表示する</block>
   <block id="ffa667317f0f22f339073864b82c97a1" category="paragraph"><block ref="51c26b70c653c2083caab58aa2584b1f" category="inline-link-macro-rx"></block>（NetApp Support Site へのログインが必要です）。</block>
+  <block id="7fc082cc8c4c4690800ff696920f4f8b" category="section-title">9.17.1 P12（23 November 2026）</block>
+  <block id="1f2acca7fcc7f5f0308e894995f39643" category="paragraph">Cloud Volumes ONTAP 9.17.1 P12 パッチが AWS、Azure、Google Cloud でアップグレードできるようになりました。Console は、既存のシステムをこのパッチリリースにアップグレードするよう促します。</block>
+  <block id="8a1258bf37cf0340b92dd9f9ca39acfa" category="inline-link-macro">P12パッチで修正されたバグのリストを表示する</block>
+  <block id="80c5f7a3f04d5b018ea10985d603259f" category="paragraph"><block ref="1268b2c814d28f6fecd12a93fbd6c88d" category="inline-link-macro-rx"></block>（NetApp Support Site へのログインが必要です）。</block>
+  <block id="b7da2f6f2999653fafad1a69f4dd57fc" category="section-title">9.17.1P11HF1 （2026年11月2日）</block>
+  <block id="8a98c29fdaa49f9a980db33f9a2ed016" category="paragraph">すべてのクラウドプロバイダーのCloud Volumes ONTAPで、9.17.1P11HF1パッチが利用可能になりました。このパッチは、9.17.1向けのONTAPホットフィックスと互換性があります。</block>
+  <block id="8ad3eb5eca42a4379abc9f1c9a2f829a" category="paragraph">Cloud Volumes ONTAPシステムの場合、Consoleでこのホットフィックスへのアップグレードを求められることがあります。ただし、このホットフィックスがサポートされるのは、Consoleエージェントのバージョンが4.12.0以降の場合のみです。Consoleエージェントのバージョンが4.12.0より前の場合は、プロンプトを無視してください。</block>
+  <block id="08853958e0db62fd50058fd45b355d7a" category="inline-link-macro">Console エージェント 4.12.0</block>
+  <block id="8e8b20b71032c4ee10ed609d1fc74995" category="paragraph"><block ref="8e8b20b71032c4ee10ed609d1fc74995" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -20,6 +20,26 @@ Cloud Volumes ONTAP 9.17.1 には新しい機能強化が含まれています�
 
 
 
+[[9-17-1-p12-23-november-2026]]
+== 9.17.1 P12（23 November 2026）
+
+Cloud Volumes ONTAP 9.17.1 P12 パッチが AWS、Azure、Google Cloud でアップグレードできるようになりました。Console は、既存のシステムをこのパッチリリースにアップグレードするよう促します。
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.17.1P12["P12パッチで修正されたバグのリストを表示する"^]（NetApp Support Site へのログインが必要です）。
+
+
+
+[[9-17-1p11hf1-2-november-2026]]
+== 9.17.1P11HF1 （2026年11月2日）
+
+すべてのクラウドプロバイダーのCloud Volumes ONTAPで、9.17.1P11HF1パッチが利用可能になりました。このパッチは、9.17.1向けのONTAPホットフィックスと互換性があります。
+
+Cloud Volumes ONTAPシステムの場合、Consoleでこのホットフィックスへのアップグレードを求められることがあります。ただし、このホットフィックスがサポートされるのは、Consoleエージェントのバージョンが4.12.0以降の場合のみです。Consoleエージェントのバージョンが4.12.0より前の場合は、プロンプトを無視してください。
+
+link:https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#console-agent-4-12-0["Console エージェント 4.12.0"^]
+
+
+
 [[9-17-1-p8-22-july-2026]]
 == 9.17.1 P8 (2026年7月22日)
 
